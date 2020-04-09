@@ -10,27 +10,27 @@ render(){
   return(
   <>
   <DataProvider>
-  <SearchBar />
+	<SearchBar />
 	<div className="container">
-    <div className="weather-head">
-		  <Header />
-    </div>
-		<div className="weather-body">
-			<div className="row">
-        <FeelsLike />
-        <TempMin />
-        <TempMax />
-			</div>
-			<div className="row">
-        <Humidity />
-        <Wind />
-        <Visibility />
-			</div>
-			<div className="row">
-				<Sunrise />
-				<Sunset />
-				<Clouds />
-			</div>
+    	<div className="weather-head">
+				<Header />
+    	</div>
+			<div className="weather-body">
+				<div className="row">
+        	<FeelsLike />
+        	<TempMin />
+        	<TempMax />
+				</div>
+				<div className="row">
+        	<Humidity />
+        	<Wind />
+        	<Visibility />
+				</div>
+				<div className="row">
+					<Sunrise />
+					<Sunset />
+					<Clouds />
+				</div>
 		</div>
 	</div>
   </DataProvider>

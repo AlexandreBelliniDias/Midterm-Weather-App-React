@@ -1,0 +1,82 @@
+/* Geral */
+body {
+    background-image: url("https://i.imgur.com/5LaaFse.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: white;
+}
+.container {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 10rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: white;
+    height: 490px;
+}
+
+/* Search Section */
+#searchBar {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+input{
+
+}
+
+/* Weather Head  */
+.weather-head {
+    height: 50%;
+}
+.column2 {
+    width: 50%;
+    float: left;
+    height: 200px;
+    text-align: center;
+}
+#description {
+    font-size: 2rem;
+}
+
+#temperature {
+    font-size: 7rem;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+#icon-thermometer {
+    font-size: 5rem;
+}
+
+#icon-desc {
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+/* Sections */
+.section {
+    border-top: 1px solid white;
+    font-size: 1.5rem;
+}
+.column {
+    width: 33%;
+    float: left;
+}
+.row {
+    height: 70px;
+}
+i {
+    margin-top: 10px;
+    margin-right: 9px;
+}
+
+
+
+
+
